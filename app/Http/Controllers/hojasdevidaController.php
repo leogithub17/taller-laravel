@@ -16,4 +16,8 @@ class hojasdevidaController extends Controller
     {
           return view('hojadevida/leonardo');
     }
+    public function FormularioEncuesta()
+    {
+          return view('encuesta/llenarencuesta');
+    }
 }

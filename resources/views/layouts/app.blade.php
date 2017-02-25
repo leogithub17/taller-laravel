@@ -9,7 +9,6 @@
 </head>
 <body>
 
- @yield('contenidoleonado')
  @yield('contenido2')
 
 </body>

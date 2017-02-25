@@ -17,3 +17,4 @@ Route::get('/', function () {
 
 Route::get('hojadevida/ervin','hojasdevidaController@HdvErvin');
 Route::get('hojadevida/leonardo','hojasdevidaController@hdvLeonardo');
+Route::get('encuesta/llenarencuesta','hojasdevidaController@FormularioEncuesta');
